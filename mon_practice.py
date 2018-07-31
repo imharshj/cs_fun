@@ -40,4 +40,8 @@ def decoder(input):
 
 decoder('hello world and practice makes perfect and hello world again')
 
-#
+# Question 5
+def odd_squares(input):
+    return [x**2 for x in input if x % 2 == 0]
+
+print odd_squares(xrange(10))
